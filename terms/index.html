@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms of use · Nana</title>
+<meta name="description" content="By using Nana you agree to these terms. If you don't agree, please don't use the app." />
+<link rel="canonical" href="https://wakenana.com/terms/" />
+<link rel="icon" type="image/png" href="/img/favicon.png" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+<meta name="theme-color" content="#15131c" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Terms of use · Nana" />
+<meta property="og:description" content="By using Nana you agree to these terms. If you don't agree, please don't use the app." />
+<meta property="og:url" content="https://wakenana.com/terms/" />
+<meta property="og:image" content="https://wakenana.com/img/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preload" href="/fonts/BricolageGrotesque_800ExtraBold.ttf" as="font" type="font/ttf" crossorigin />
+<style>
+@font-face { font-family: "Bricolage"; src: url(/fonts/BricolageGrotesque_800ExtraBold.ttf) format("truetype"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Bricolage"; src: url(/fonts/BricolageGrotesque_500Medium.ttf) format("truetype"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Inter"; src: url(/fonts/Inter_400Regular.ttf) format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter"; src: url(/fonts/Inter_600SemiBold.ttf) format("truetype"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Vazirmatn"; src: url(/fonts/Vazirmatn_800ExtraBold.ttf) format("truetype"); font-weight: 800; font-display: swap; }
+:root {
+  --ink: #15131c; --surface: #221f2b; --surface2: #1c1925; --line: #3a3546;
+  --text: #f5f2ea; --soft: #d9d3e3; --dim: #a9a3b8; --yellow: #e8ff5a; --coral: #ff6b4a; --cardigan: #5a2d50;
+  --display: "Bricolage", "Inter", system-ui, sans-serif; --body: "Inter", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ink); color: var(--text); font: 17px/1.6 var(--body); overflow-x: hidden; }
+img { max-width: 100%; display: block; }
+a { color: var(--yellow); }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 800; margin: 0; line-height: 1.02; letter-spacing: -0.02em; }
+h2 { font-size: clamp(34px, 6vw, 56px); }
+h3 { font-size: 24px; line-height: 1.15; }
+p { margin: 0; }
+.soft { color: var(--soft); } .dim { color: var(--dim); }
+.kicker { font: 600 13px/1 var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--yellow); }
+
+/* Header */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; }
+.logo { font: 800 34px/1 var(--display); color: var(--yellow); text-decoration: none; letter-spacing: -0.03em; }
+.top nav { display: flex; gap: 20px; }
+.top nav a { color: var(--soft); text-decoration: none; font-weight: 600; font-size: 15px; }
+.top nav a:hover { color: var(--text); }
+
+/* Buttons */
+.stores { display: flex; flex-wrap: wrap; gap: 12px; }
+.store { display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 22px; border-radius: 999px;
+  font: 600 16px var(--body); text-decoration: none; border: 1.5px solid var(--line); color: var(--text); background: transparent; }
+.store.primary { background: var(--yellow); border-color: var(--yellow); color: var(--ink); }
+.store small { font-weight: 400; opacity: .7; }
+.store svg { width: 22px; height: 22px; }
+
+/* Hero */
+.hero { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 24px; padding: 40px 0 72px; }
+.hero h1 { font-size: clamp(48px, 8.5vw, 104px); }
+.hero h1 em { font-style: normal; color: var(--yellow); }
+.hero .lede { font: 500 clamp(19px, 2.3vw, 23px)/1.4 var(--display); color: var(--soft); margin: 22px 0 30px; max-width: 34ch; }
+.hero .art { position: relative; }
+.hero .art img { width: 100%; max-width: 460px; margin-left: auto; }
+.bubble { position: absolute; left: -4%; top: 6%; background: var(--yellow); color: var(--ink); border-radius: 22px; padding: 12px 18px;
+  font: 800 22px/1.15 var(--display); transform: rotate(-4deg); box-shadow: 6px 8px 0 var(--coral); max-width: 230px; }
+.bubble small { display: block; font: 600 13px var(--body); opacity: .7; margin-top: 4px; }
+
+/* Phrase wall */
+.band { background: var(--surface2); padding: 80px 0; }
+.section-head { display: grid; gap: 14px; margin-bottom: 40px; max-width: 720px; }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 22px; align-items: start; }
+.card { position: relative; }
+.card .face { position: relative; background: var(--yellow); color: var(--ink); border-radius: 28px; padding: 22px; display: grid; gap: 8px; }
+.card .shadow { position: absolute; inset: 12px 6px -12px 6px; background: var(--coral); border-radius: 28px; }
+.card:nth-child(3n+1) { transform: rotate(-2deg); } .card:nth-child(3n+2) { transform: rotate(1.5deg); } .card:nth-child(3n) { transform: rotate(-1deg); }
+.pill { justify-self: start; border: 1.5px solid var(--ink); border-radius: 999px; padding: 3px 10px; font: 600 12px var(--body); letter-spacing: .08em; text-transform: uppercase; }
+.native { font: 800 30px/1.15 var(--display); }
+.native[dir="rtl"] { font-family: "Vazirmatn", var(--display); text-align: right; }
+.roman { font: 800 17px/1.2 var(--display); opacity: .55; }
+.means { font-size: 15px; }
+.spicy { position: absolute; top: -10px; right: 14px; z-index: 2; background: var(--coral); color: var(--ink); border-radius: 999px; padding: 3px 10px; font: 600 12px var(--body); }
+
+/* Steps */
+.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.step { background: var(--surface); border-radius: 28px; padding: 26px; display: grid; gap: 12px; align-content: start; }
+.num { width: 44px; height: 44px; border-radius: 50%; background: var(--yellow); color: var(--ink); display: grid; place-items: center; font: 800 22px var(--display); }
+.step:nth-child(2) .num { background: var(--coral); }
+section.block { padding: 88px 0; }
+
+/* Pickiness */
+.picky { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 28px; }
+.level { border: 1.5px solid var(--line); border-radius: 22px; padding: 20px; display: grid; gap: 6px; }
+.level.on { background: var(--yellow); color: var(--ink); border-color: var(--yellow); }
+.level strong { font: 800 24px var(--display); }
+
+/* Split sections */
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+.split img { max-width: 380px; margin: 0 auto; }
+.ticks { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 12px; }
+.ticks li { display: flex; gap: 12px; align-items: flex-start; }
+.ticks li::before { content: ""; flex: none; width: 22px; height: 22px; margin-top: 3px; border-radius: 50%; background: var(--yellow)
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%2315131c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat; }
+
+/* Final CTA + footer */
+.cta { text-align: center; padding: 96px 0 72px; display: grid; justify-items: center; gap: 22px; }
+.cta img { width: 220px; }
+.cta h2 { max-width: 14ch; }
+footer { border-top: 1px solid var(--surface); padding: 32px 0 48px; color: var(--dim); font-size: 14px; }
+footer .row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 20px; }
+footer a { color: var(--soft); text-decoration: none; } footer a:hover { color: var(--text); }
+
+/* Legal pages */
+.doc { max-width: 720px; padding: 24px 0 64px; }
+.doc h1 { font-size: clamp(40px, 7vw, 60px); margin-bottom: 8px; }
+.doc h2 { font-size: 24px; line-height: 1.2; margin: 36px 0 10px; }
+.doc p { margin: 0 0 12px; color: var(--soft); }
+
+@media (max-width: 860px) {
+  .hero, .split { grid-template-columns: 1fr; }
+  .hero { padding-top: 16px; }
+  .hero .art { order: -1; max-width: 360px; margin: 0 auto; }
+  .bubble { font-size: 18px; left: 0; }
+  .cards, .steps, .picky { grid-template-columns: 1fr; }
+  .split img { max-width: 260px; }
+  .top nav { gap: 14px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: transform .25s ease; } .card:hover { transform: rotate(0) translateY(-4px); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="logo" href="/" aria-label="Nana home">nana</a>
+    <nav aria-label="Main"><a href="/#how">How it works</a><a href="/support/">Support</a></nav>
+  </header>
+</div>
+<main class="wrap"><article class="doc">
+<h1>Terms of use</h1>
+<p class="dim">Last updated November 14, 2026</p>
+<p>By using Nana you agree to these terms. If you don't agree, please don't use the app.</p>
+<h2>Who can use Nana</h2>
+<p>You must be at least 17. Nana includes slang, crude humour, mild swearing and references to drinking.</p>
+<h2>Don't bet your flight on it</h2>
+<p>Nana works hard to wake you up, but phones can stop alarms: low battery, system updates, Focus or Do Not Disturb settings, force-quitting the app, or permissions you've turned off. Don't rely on Nana alone for anything that matters, like medication, flights or exams. Set a backup.</p>
+<h2>Your recordings</h2>
+<p>You own the phrases you record. By submitting one, you give Nana a worldwide, royalty-free licence to store it, play it to other users, let them download it, and use it to show off Nana. You can delete your phrases at any time in My phrases. Copies already downloaded to other people's phones disappear the next time they open Nana.</p>
+<p>Only submit your own voice, and only phrases you have the right to share.</p>
+<h2>Crew rules</h2>
+<p>Keep it funny, not hateful. Don't submit slurs, hate speech, harassment, threats, sexual content, other people's personal information, someone else's voice without their permission, ads or spam. Translations must be honest.</p>
+<p>There's zero tolerance for objectionable content and abusive users. We review every phrase before it goes live and can refuse or remove any of them. A blocked phrase counts as a strike, and we may close the crew account of anyone who keeps breaking the rules.</p>
+<h2>Reports</h2>
+<p>If a phrase is offensive or wrong, report it from the phrase page. A phrase that gets three reports is taken down until we review it, and we look at every report within 24 hours. You can also block a crew member from any of their phrases: everything they recorded disappears from your phone and never rings. Unblock them in You → Privacy.</p>
+<h2>Credits</h2>
+<p>Nana's accent check uses ZIPA (Zhu et al., 2025), licensed under CC BY 4.0.</p>
+<h2>No warranty</h2>
+<p>Nana is provided as is. To the extent the law allows, we make no promises that it will always work, wake you up, or judge your accent fairly, and we're not liable for anything that happens because an alarm didn't ring or didn't stop. Nothing in these terms limits rights you have that can't be limited by law.</p>
+<h2>Ending things</h2>
+<p>You can stop using Nana and delete your data at any time (You → Delete my data). We may suspend crew accounts that break these terms.</p>
+<h2>Changes</h2>
+<p>We may update these terms. When we do, we'll change the date at the top, and continuing to use Nana means you accept the new version.</p>
+<h2>Contact</h2>
+<p>Questions, requests or deletion: <a href="mailto:support@wakenana.com">support@wakenana.com</a></p>
+</article></main>
+<footer>
+  <div class="wrap row">
+    <span>© 2026 Nana. 17+. Accent check by ZIPA (Zhu et al., 2025), CC BY 4.0.</span>
+    <nav aria-label="Legal"><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of use</a><a href="/support/">Support</a><a href="mailto:support@wakenana.com">support@wakenana.com</a></nav>
+  </div>
+</footer>
+</body>
+</html>

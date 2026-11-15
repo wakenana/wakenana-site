@@ -103,6 +103,11 @@ section.block { padding: 88px 0; }
 .ticks li::before { content: ""; flex: none; width: 22px; height: 22px; margin-top: 3px; border-radius: 50%; background: var(--yellow)
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%2315131c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat; }
 
+.more { display: inline-flex; align-items: center; gap: 10px; margin-top: 28px; height: 46px; padding: 0 20px; border: 1.5px solid var(--line);
+  border-radius: 999px; color: var(--text); font: 600 15px var(--body); text-decoration: none; transition: border-color .15s, color .15s; }
+.more svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s; }
+.more:hover { border-color: var(--yellow); color: var(--yellow); } .more:hover svg { transform: translateX(3px); }
+
 /* Final CTA + footer */
 .cta { text-align: center; padding: 96px 0 72px; display: grid; justify-items: center; gap: 22px; }
 .cta img { width: 220px; }
@@ -304,7 +309,7 @@ footer a { color: var(--soft); text-decoration: none; } footer a:hover { color: 
         <li>No ads, no tracking, no selling your data. Ever.</li>
         <li>Delete everything from the app, any time.</li>
       </ul>
-      <p style="margin-top:18px"><a href="/privacy/">Read the privacy policy</a></p>
+      <a class="more" href="/privacy/">Privacy policy<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
     </div>
     <img src="/img/crossed.webp" width="480" height="627" alt="Nana with her arms crossed" loading="lazy" />
   </section>
